@@ -1,0 +1,10 @@
+ul, li {
+    list-style: none;
+}
+.chart {
+    width: 600px;
+    height: 400px;
+}
+#h1{
+    color: red;
+}
