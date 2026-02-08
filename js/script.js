@@ -28,15 +28,15 @@ const commonOptions = {
 const chartsConfig = [{
     id: 'chart-1',
     data: {
-      categories: ['Deutschland', 'Polen', 'Türkei'],
+      categories: ['Afghanistan', 'Deutschland', 'England / Italien', 'Irak', 'Litauen', 'Marokko', 'Polen', 'Russland', 'Spanien', 'Syrien', 'Türkei'],
       series: [{
         name: 'Schüler*innen',
         type: 'bar',
-        data: [3, 1, 0]
+        data: [2, 33, 0, 2, 1, 0, 2, 0, 1, 2, 0]
       }, {
         name: 'Eltern',
         type: 'bar',
-        data: [2, 1, 1]
+        data: [3, 21, 1, 4, 1, 8, 6, 2, 0, 2, 2]
       }]
     }
   }, {
@@ -46,30 +46,30 @@ const chartsConfig = [{
       series: [{
         name: 'Schüler*innen',
         type: 'bar',
-        data: [1, 0, 1, 0, 0, 2, 0]
+        data: [21, 0, 14, 0, 1, 7, 0]
       }]
     }
   }, {
     id: 'chart-3',
     data: {
-      categories: ['Deutschland'],
+      categories: ['Deutschland', 'Indonesien', 'Kamerun', 'Polen', 'Spanien', 'Türkei'],
       series: [{
         name: 'Lehrer*innen',
-        type: 'bar', data: [0]
+        type: 'bar', data: [9]
       }, {
         name: 'Eltern',
         type: 'bar',
-        data: [0, 0]
+        data: [5, 1, 1, 1, 1, 1]
       }]
     }
   }, {
     id: 'chart-4',
     data: {
-      categories: ['Christentum', 'Judentum', 'Islam', 'Buddhismus', 'Hinduismus', 'Keine Religion', 'Anderes'],
+      categories: ['Christentum', 'Judentum', 'Islam', 'Buddhismus', 'Hinduismus', 'Keine Religion', 'Evangelisch', 'Anderes'],
       series: [{
         name: 'Lehrer*innen',
         type: 'bar',
-        data: [0, 0, 0, 0, 0, 0, 0]
+        data: [2, 0, 1, 0, 0, 5, 1, 0]
       }]
     }
   }
